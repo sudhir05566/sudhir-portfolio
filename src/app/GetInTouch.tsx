@@ -39,7 +39,7 @@ export default function GetInTouch() {
   };
 
   return (
-    <section id="contact" className="scroll-mt-24 py-24">
+    <section className="py-24">
       <div className="mx-auto max-w-6xl px-6 lg:pl-16">
         <SectionHeading title="Get in touch" center />
         <div className="grid gap-10 lg:grid-cols-2">

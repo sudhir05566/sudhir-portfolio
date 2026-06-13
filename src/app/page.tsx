@@ -28,7 +28,7 @@ export default function Home() {
         <Skills />
         <Projects />
         <Education />
-        <DeferredSection>
+        <DeferredSection id="contact">
           <GetInTouch />
         </DeferredSection>
       </main>
