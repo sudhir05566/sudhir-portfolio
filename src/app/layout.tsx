@@ -68,10 +68,6 @@ export const metadata: Metadata = {
       "Frontend Developer specializing in React, Next.js, and high-performance web apps.",
     images: [personalInfo.profileImage],
   },
-  icons: {
-    icon: personalInfo.profileImage,
-    apple: personalInfo.profileImage,
-  },
   applicationName: `${personalInfo.name} Portfolio`,
 };
 

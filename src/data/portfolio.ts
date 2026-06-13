@@ -42,6 +42,7 @@ export type Project = {
   tech: string[];
   category: string;
   links: ProjectLink[];
+  image: string;
 };
 
 export const profile = `Frontend Developer with 3.8+ years of experience building scalable, high-performance web applications using React.js and Next.js. Specialized in SSR/SSG, performance optimization, and reusable component architecture. Delivered multiple production-grade applications across OTT, e-commerce, and dashboard platforms. Strong expertise in API integration, state management (Redux/Context), and responsive UI development, with a focus on improving user experience and application performance.`;
@@ -97,6 +98,7 @@ export const projects: Project[] = [
     tech: ["Next.js", "JavaScript", "HTML", "CSS", "Bootstrap"],
     category: "Entertainment",
     links: [{ label: "Visit site", href: "https://cinepolisindia.com/" }],
+    image: "/projects/cinepolis-india.png",
   },
   {
     name: "Revivify (E-commerce Platform)",
@@ -111,6 +113,7 @@ export const projects: Project[] = [
     tech: ["Next.js", "Tailwind CSS", "JavaScript"],
     category: "E-commerce",
     links: [{ label: "Visit site", href: "https://www.revivify.com/" }],
+    image: "/projects/revivify.png",
   },
   {
     name: "Cinepolis Gulf Websites",
@@ -125,6 +128,7 @@ export const projects: Project[] = [
     tech: ["React.js", "Bootstrap", "JavaScript"],
     category: "Entertainment",
     links: [{ label: "Visit site", href: "https://www.cinepolisgulf.com/" }],
+    image: "/projects/cinepolis-gulf.png",
   },
   {
     name: "Peoplematters Website",
@@ -139,6 +143,7 @@ export const projects: Project[] = [
     tech: ["Next.js", "Tailwind CSS", "React", "REST APIs"],
     category: "Media",
     links: [{ label: "Visit site", href: "https://www.peoplematters.in/" }],
+    image: "/projects/peoplematters.png",
   },
   {
     name: "Vrott TV",
@@ -153,6 +158,7 @@ export const projects: Project[] = [
     tech: ["Next.js", "HTML", "Tailwind", "JavaScript"],
     category: "OTT / Streaming",
     links: [{ label: "Visit site", href: "https://www.vrott.tv/" }],
+    image: "/projects/vrott-tv.png",
   },
   {
     name: "Slasherplay",
@@ -167,6 +173,7 @@ export const projects: Project[] = [
     tech: ["Next.js", "HTML", "Tailwind", "JavaScript"],
     category: "OTT / Streaming",
     links: [{ label: "Visit site", href: "https://www.slasher.tv/" }],
+    image: "/projects/slasherplay.png",
   },
   {
     name: "Nuvio Events (Admin Dashboard)",
@@ -186,6 +193,7 @@ export const projects: Project[] = [
         href: "https://uat-opera-core-cms.nuviotech.co/",
       },
     ],
+    image: "/projects/nuvio-events.png",
   },
 ];
 
