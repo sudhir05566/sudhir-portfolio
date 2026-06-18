@@ -45,7 +45,7 @@ export type Project = {
   image: string;
 };
 
-export const profile = `Frontend Developer with 3.8+ years of experience building scalable, high-performance web applications using React.js and Next.js. Specialized in SSR/SSG, performance optimization, and reusable component architecture. Delivered multiple production-grade applications across OTT, e-commerce, and dashboard platforms. Strong expertise in API integration, state management (Redux/Context), and responsive UI development, with a focus on improving user experience and application performance.`;
+export const profile = `Frontend Developer with 3.8+ years of experience building scalable, high-performance web applications using React.js, Next.js, TypeScript, and Redux Toolkit. Specialized in SSR/SSG, performance optimization, and reusable component architecture. Delivered multiple production-grade applications across OTT, e-commerce, fintech, and dashboard platforms. Strong expertise in REST API integration, state management, and responsive UI development, with a focus on improving user experience and application performance in Agile environments.`;
 
 export const experience = {
   company: "End Point IT Services Pvt Ltd",
@@ -53,34 +53,56 @@ export const experience = {
   period: "Jul 2022 – Mar 2026",
   location: "Mumbai, India",
   highlights: [
-    "Engineered scalable and reusable React/Next.js components to improve application maintainability and development speed",
-    "Improved page load performance by 25–30% using SSR, lazy loading, and optimized asset handling",
-    "Integrated REST APIs for dynamic data rendering across multiple production applications",
-    "Collaborated with cross-functional teams (backend, design) to deliver seamless UI/UX",
-    "Implemented efficient state management using Redux and Context API",
+    "Developed and maintained scalable web applications using React.js, Next.js, TypeScript, and Redux Toolkit",
+    "Built reusable and responsive UI components, improving development efficiency by 40%",
+    "Integrated REST APIs and optimized data fetching using Axios and modern React patterns",
+    "Improved application performance by 25–30% through SSR, code splitting, lazy loading, and image optimization",
+    "Collaborated with cross-functional teams in Agile environments to deliver production-ready applications",
+    "Participated in code reviews and maintained coding standards and best practices",
   ],
 };
 
 export const skills = [
   {
     category: "Frontend",
-    items: ["React.js", "Next.js"],
+    items: ["React.js", "Next.js", "Material UI"],
   },
   {
     category: "Languages",
-    items: ["JavaScript (ES6+)", "HTML5"],
+    items: ["JavaScript (ES6+)", "TypeScript"],
+  },
+  {
+    category: "Markup & Structure",
+    items: ["HTML5"],
   },
   {
     category: "Styling",
-    items: ["Tailwind CSS", "CSS3", "Bootstrap"],
+    items: ["Tailwind CSS", "Bootstrap", "CSS3"],
   },
   {
     category: "State Management",
-    items: ["Redux", "Context API"],
+    items: ["Redux Toolkit", "Context API"],
   },
   {
-    category: "Other",
-    items: ["REST API Integration", "Responsive Design", "SSR/SSG"],
+    category: "Web Technologies",
+    items: ["SSR", "SSG", "CSR", "REST APIs", "JWT Authentication"],
+  },
+  {
+    category: "Tools & Practices",
+    items: [
+      "Git",
+      "GitHub",
+      "GitLab",
+      "Axios",
+      "NPM",
+      "Postman",
+      "Jira",
+      "Agile Methodology",
+      "SEO Optimization",
+      "Performance Optimization",
+      "Responsive Design",
+      "Cross-Browser Compatibility",
+    ],
   },
 ];
 
@@ -95,7 +117,7 @@ export const projects: Project[] = [
       "Developed reusable UI components to enhance scalability",
       "Integrated APIs for real-time movie listings and showtimes",
     ],
-    tech: ["Next.js", "JavaScript", "HTML", "CSS", "Bootstrap"],
+    tech: ["Next.js", "JavaScript", "HTML5", "CSS", "Bootstrap"],
     category: "Entertainment",
     links: [{ label: "Visit site", href: "https://cinepolisindia.com/" }],
     image: "/projects/cinepolis-india.png",
@@ -110,7 +132,7 @@ export const projects: Project[] = [
       "Improved responsiveness and accessibility across devices",
       "Integrated APIs for product and cart management",
     ],
-    tech: ["Next.js", "Tailwind CSS", "JavaScript"],
+    tech: ["Next.js", "Tailwind CSS", "TypeScript", "HTML5"],
     category: "E-commerce",
     links: [{ label: "Visit site", href: "https://www.revivify.com/" }],
     image: "/projects/revivify.png",
@@ -125,7 +147,7 @@ export const projects: Project[] = [
       "Implemented client-side routing and seamless navigation",
       "Managed complex state using Redux/Context API",
     ],
-    tech: ["React.js", "Bootstrap", "JavaScript"],
+    tech: ["React.js", "Bootstrap", "JavaScript", "HTML5"],
     category: "Entertainment",
     links: [{ label: "Visit site", href: "https://www.cinepolisgulf.com/" }],
     image: "/projects/cinepolis-gulf.png",
@@ -140,7 +162,7 @@ export const projects: Project[] = [
       "Integrated REST APIs for real-time content delivery",
       "Optimized performance using Tailwind CSS and modern practices",
     ],
-    tech: ["Next.js", "Tailwind CSS", "React", "REST APIs"],
+    tech: ["Next.js", "Tailwind CSS", "HTML5"],
     category: "Media",
     links: [{ label: "Visit site", href: "https://www.peoplematters.in/" }],
     image: "/projects/peoplematters.png",
@@ -155,7 +177,7 @@ export const projects: Project[] = [
       "Optimized performance for fast content delivery",
       "Integrated APIs for real-time video data",
     ],
-    tech: ["Next.js", "HTML", "Tailwind", "JavaScript"],
+    tech: ["Next.js", "HTML5", "Tailwind CSS", "JavaScript"],
     category: "OTT / Streaming",
     links: [{ label: "Visit site", href: "https://www.vrott.tv/" }],
     image: "/projects/vrott-tv.png",
@@ -170,7 +192,7 @@ export const projects: Project[] = [
       "Implemented dynamic routing and media content rendering",
       "Integrated APIs for real-time video catalog and playback data",
     ],
-    tech: ["Next.js", "HTML", "Tailwind", "JavaScript"],
+    tech: ["Next.js", "HTML5", "Tailwind CSS", "JavaScript"],
     category: "OTT / Streaming",
     links: [{ label: "Visit site", href: "https://www.slasher.tv/" }],
     image: "/projects/slasherplay.png",
@@ -185,7 +207,7 @@ export const projects: Project[] = [
       "Developed reusable dashboard components for maintainability",
       "Integrated APIs for event and ticket management",
     ],
-    tech: ["Next.js", "React.js", "Tailwind CSS"],
+    tech: ["Next.js", "Tailwind CSS", "HTML5", "JavaScript"],
     category: "Dashboard",
     links: [
       {
@@ -194,6 +216,23 @@ export const projects: Project[] = [
       },
     ],
     image: "/projects/nuvio-events.png",
+  },
+  {
+    name: "CareEdge Global",
+    period: "Apr 2026 – Present",
+    description:
+      "Responsive corporate web platform for a global credit rating agency with SEO-friendly pages and dynamic content management.",
+    highlights: [
+      "Built reusable UI components using React.js / Next.js and Tailwind CSS",
+      "Implemented SEO-friendly pages and optimized website performance",
+      "Integrated REST APIs for dynamic content management and data rendering",
+      "Collaborated directly with stakeholders to implement new features and enhancements",
+      "Ensured cross-browser compatibility and mobile responsiveness across devices",
+    ],
+    tech: ["Next.js", "TypeScript", "Tailwind CSS", "REST APIs", "HTML5", "CSS3"],
+    category: "FinTech",
+    links: [{ label: "Visit site", href: "https://www.careedgeglobal.com/" }],
+    image: "/projects/careedge-global.png",
   },
 ];
 
@@ -223,12 +262,12 @@ export const tools = {
 export const skillNames = [
   "React.js",
   "Next.js",
+  "TypeScript",
   "JavaScript",
   "Tailwind CSS",
-  "Redux / Context",
+  "Redux Toolkit",
   "REST APIs",
-  "HTML / CSS",
-  "Bootstrap",
+  "SSR / SSG",
 ];
 
 export const navLinks = [
