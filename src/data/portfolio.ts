@@ -10,9 +10,9 @@ export const personalInfo = {
   gitlab: "https://gitlab.com/sudhir05566",
   yearsOfExperience: "3.8+",
   resumeViewUrl:
-    "https://drive.google.com/file/d/1YyFZ00WK8PMuT4RQUB2h5iKhfDdb6v51/view",
+    "https://drive.google.com/file/d/1MqQME09NJ-CuGtN7_i1HHzEKfa6aLGgb/view",
   resumeUrl:
-    "https://drive.google.com/uc?export=download&id=1YyFZ00WK8PMuT4RQUB2h5iKhfDdb6v51",
+    "https://drive.google.com/uc?export=download&id=1MqQME09NJ-CuGtN7_i1HHzEKfa6aLGgb",
   profileImage: "/sudhir-profile.png",
 };
 
