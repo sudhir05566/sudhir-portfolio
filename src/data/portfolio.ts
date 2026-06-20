@@ -9,11 +9,11 @@ export const personalInfo = {
   github: "https://github.com/sudhir05566",
   gitlab: "https://gitlab.com/sudhir05566",
   yearsOfExperience: "3.8+",
-  resumeViewUrl:
-    "https://drive.google.com/file/d/1MqQME09NJ-CuGtN7_i1HHzEKfa6aLGgb/view",
-  resumeUrl:
-    "https://drive.google.com/uc?export=download&id=1MqQME09NJ-CuGtN7_i1HHzEKfa6aLGgb",
-  profileImage: "/sudhir-profile.png",
+    resumeViewUrl:
+      "https://drive.google.com/file/d/16eFDQKrc50E4JJQywcovuyMUeqjDsQAr/view",
+
+    resumeUrl:
+      "https://drive.google.com/uc?export=download&id=16eFDQKrc50E4JJQywcovuyMUeqjDsQAr",
 };
 
 export const typewriterRoles = [
