@@ -57,8 +57,7 @@ export default function About() {
 
             <a
               href={personalInfo.resumeUrl}
-              target="_blank"
-              rel="noopener noreferrer"
+              download={personalInfo.resumeFileName}
               className="btn-primary inline-flex items-center gap-2"
             >
               Download Resume

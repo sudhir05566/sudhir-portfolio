@@ -59,8 +59,7 @@ export default function Hero() {
           </a>
           <a
             href={personalInfo.resumeUrl}
-            target="_blank"
-            rel="noopener noreferrer"
+            download={personalInfo.resumeFileName}
             className="btn-outline inline-flex items-center gap-2"
           >
             Resume

@@ -9,10 +9,8 @@ export const personalInfo = {
   github: "https://github.com/sudhir05566",
   gitlab: "https://gitlab.com/sudhir05566",
   yearsOfExperience: "3.8+",
-  resumeViewUrl:
-    "https://drive.google.com/file/d/16eFDQKrc50E4JJQywcovuyMUeqjDsQAr/view",
-  resumeUrl:
-    "https://drive.google.com/uc?export=download&id=16eFDQKrc50E4JJQywcovuyMUeqjDsQAr",
+  resumeUrl: "/Sudhir-Kushwaha-Resume.pdf",
+  resumeFileName: "Sudhir-Kushwaha-Resume.pdf",
   profileImage: "/sudhir-profile.png",
 };
 
