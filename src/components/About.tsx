@@ -55,13 +55,22 @@ export default function About() {
               ideas to life with clean code and thoughtful UI.
             </p>
 
-            <a
-              href={personalInfo.resumeUrl}
-              download={personalInfo.resumeFileName}
-              className="btn-primary inline-flex items-center gap-2"
-            >
-              Download Resume
-            </a>
+            <div className="flex flex-wrap gap-4">
+              <a
+                href={personalInfo.resumeUrl}
+                download={personalInfo.resumeFileName}
+                className="btn-primary inline-flex items-center gap-2"
+              >
+                Download Resume
+              </a>
+              <a
+                href={personalInfo.coverLetterUrl}
+                download={personalInfo.coverLetterFileName}
+                className="btn-outline inline-flex items-center gap-2"
+              >
+                Download Cover Letter
+              </a>
+            </div>
           </div>
         </div>
       </div>

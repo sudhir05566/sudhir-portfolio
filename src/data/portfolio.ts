@@ -9,8 +9,10 @@ export const personalInfo = {
   github: "https://github.com/sudhir05566",
   gitlab: "https://gitlab.com/sudhir05566",
   yearsOfExperience: "3.8+",
-  resumeUrl: "/Sudhir-Kushwaha-Resume.pdf",
-  resumeFileName: "Sudhir-Kushwaha-Resume.pdf",
+  resumeUrl: "/Sudhir_Kushwaha_Resume.pdf",
+  resumeFileName: "Sudhir_Kushwaha_Resume.pdf",
+  coverLetterUrl: "/Sudhir_Kushwaha_Cover_Letter.pdf",
+  coverLetterFileName: "Sudhir_Kushwaha_Cover_Letter.pdf",
   profileImage: "/sudhir-profile.png",
 };
 
